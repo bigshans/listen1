@@ -1,6 +1,6 @@
 {
   "name": "listen1",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -19,7 +19,19 @@
     "@angular/platform-browser": "~10.1.6",
     "@angular/platform-browser-dynamic": "~10.1.6",
     "@angular/router": "~10.1.6",
+    "@ngx-translate/core": "^13.0.0",
+    "@ngx-translate/http-loader": "^6.0.0",
+    "aes": "^0.1.0",
+    "angular-notifier": "^6.0.1",
+    "cryptojs": "^2.5.3",
+    "electron": "^10.1.4",
+    "hotkeys": "^1.0.0",
+    "jsencrypt": "^3.0.0-rc.1",
+    "md5": "^2.3.0",
+    "ngx-soundmanager2": "^0.2.3",
     "rxjs": "~6.6.0",
+    "soundmanager2": "^2.97.20170602",
+    "timer": "^1.0.1",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
   },
@@ -27,9 +39,9 @@
     "@angular-devkit/build-angular": "~0.1001.7",
     "@angular/cli": "~10.1.7",
     "@angular/compiler-cli": "~10.1.6",
-    "@types/node": "^12.11.1",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
@@ -42,5 +54,9 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.0.2"
-  }
+  },
+  "description": "listen1 SPA",
+  "main": "app.js",
+  "repository": "https://github.com/bigshans/listen1.git",
+  "license": "GPLv2"
 }
